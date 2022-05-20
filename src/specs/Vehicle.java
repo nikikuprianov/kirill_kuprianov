@@ -1,16 +1,16 @@
+
 package specs;
 
 public class Vehicle {
-    private String model;
+   private String model;
     private int speed;
     private int fuel;
     private boolean isDieselFuel;
-    ////////////////////////////////////////////////////////////////
     public String getModel() {
         return model;
     }
 
-    public int getSpeed() {
+   public int getSpeed() {
         return speed;
     }
 
@@ -21,7 +21,7 @@ public class Vehicle {
     public int getFuel() {
         return fuel;
     }
-//////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////
 
 
     public Vehicle(String model, int speed, int fuel, boolean isDieselFuel) {
