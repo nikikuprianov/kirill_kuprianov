@@ -14,7 +14,7 @@ public class Plane extends Vehicle implements Flyable{
             System.out.println("Бак пуст");
             return;
         }else
-            System.out.println("Самолёт " + getModel() + " поехал");
+            System.out.println("Cамолет" + getModel() + " поехал");
     }
     public void stop() {
         System.out.println("Самолёт " + getModel() + " остановился");
