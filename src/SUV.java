@@ -1,6 +1,4 @@
-package specs;
-
-public class SUV extends specs.Vehicle {
+public class SUV extends Vehicle{
     int countWheels = 4;
 
     public SUV(String model, int speed, boolean isDieselFuel, int fuel) {
@@ -11,12 +9,14 @@ public class SUV extends specs.Vehicle {
         System.out.println(countWheels);
     }
 
+    public String toString(){
+        return " " + getModel();
+    }
 
     private void checkFuel() {
         if (getFuel() > 100 || getFuel() < 0) {
             return;
         }
-        System.out.println("Читер");
     }
 
     void GetModel() {
@@ -28,11 +28,11 @@ public class SUV extends specs.Vehicle {
             return;
         }else
             System.out.println("Транспорт поехал");
-        System.out.println("срезаем дорогу");
+        System.out.println("Быстро едет по кочкам");
     }
     public void stop() {
         System.out.println("Транспорт остановился");
-        System.out.println("....быстро.....");
+        System.out.println("....Резко.....");
     }
 
 }
