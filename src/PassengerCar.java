@@ -18,8 +18,6 @@ public  class PassengerCar extends Vehicle{
         if (getFuel() > 100 || getFuel() < 0) {
             return;
         }
-        System.out.println("Читар");
-    }*/
     void GetModel() {
         System.out.println(getModel());
     }
