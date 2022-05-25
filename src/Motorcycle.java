@@ -26,7 +26,7 @@ public class Motorcycle extends specs.Vehicle {
     }
     public void stop() {
         System.out.println("Транспорт остановился");
-        System.out.println("....Круто.....");
+        System.out.println("....плавно.....");
     }
 
 }
