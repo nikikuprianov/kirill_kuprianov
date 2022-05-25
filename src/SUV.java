@@ -32,7 +32,7 @@ public class SUV extends Vehicle{
     }
     public void stop() {
         System.out.println("Транспорт остановился");
-        System.out.println("....Резко.....");
+        System.out.println("....быстро.....");
     }
 
 }
